@@ -4,7 +4,7 @@ import { navLists } from "../constants";
 
 const Navbar = () => {
   return (
-    <header className='flex w-full justify-between items-center py-10 sm:px-10 px-5'>
+    <header className='flex w-full justify-between items-center py-4 sm:px-10 px-5'>
       <nav className='flex w-full screen-max-width'>
         <img src={appleImg} alt='Apple' width={18} height={18} className='cursor-pointer'/>
         <div className='flex flex-1 justify-center max-sm:hidden'>
