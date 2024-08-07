@@ -139,31 +139,31 @@ const VideoCarousel = () => {
 
     // vd id is the id for every video until id becomes number 3
     const handleProcess = (type: string, i: number) => {
-    switch (type) {
-        case "video-end":
-            setVideo((pre) => ({ ...pre, isEnd: true, videoId: i + 1 }));
-            break;
+        switch (type) {
+            case "video-end":
+                setVideo((pre) => ({ ...pre, isEnd: true, videoId: i + 1 }));
+                break;
 
-        case "video-last":
-            setVideo((pre) => ({ ...pre, isLastVideo: true }));
-            break;
+            case "video-last":
+                setVideo((pre) => ({ ...pre, isLastVideo: true }));
+                break;
 
-        case "video-reset":
-            setVideo((pre) => ({ ...pre, videoId: 0, isLastVideo: false }));
-            break;
+            case "video-reset":
+                setVideo((pre) => ({ ...pre, videoId: 0, isLastVideo: false }));
+                break;
 
-        case "pause":
-            setVideo((pre) => ({ ...pre, isPlaying: !pre.isPlaying }));
-            break;
+            case "pause":
+                setVideo((pre) => ({ ...pre, isPlaying: !pre.isPlaying }));
+                break;
 
-        case "play":
-            setVideo((pre) => ({ ...pre, isPlaying: !pre.isPlaying }));
-            break;
+            case "play":
+                setVideo((pre) => ({ ...pre, isPlaying: !pre.isPlaying }));
+                break;
 
-        default:
-            return video;
-    }
-};
+            default:
+                return video;
+        }
+    };
 
     const handleLoadedMetaData = (i, e) => setLoadedData((pre) => [...pre, e]);
 
@@ -186,7 +186,7 @@ const VideoCarousel = () => {
                                     onEnded={() =>
                                         i !== 3
                                             ? handleProcess("video-end", i)
-                                            : handleProcess("video-last")
+                                            : handleProcess("video-last", i)
                                     }
                                     onPlay={() =>
                                         setVideo((pre) => ({ ...pre, isPlaying: true }))
@@ -231,10 +231,10 @@ const VideoCarousel = () => {
                         alt={isLastVideo ? "replay" : !isPlaying ? "play" : "pause"}
                         onClick={
                             isLastVideo
-                                ? () => handleProcess("video-reset")
+                                ? () => handleProcess("video-reset", videoId)
                                 : !isPlaying
-                                    ? () => handleProcess("play")
-                                    : () => handleProcess("pause")
+                                    ? () => handleProcess("play", videoId)
+                                    : () => handleProcess("pause", videoId)
                         }
                     />
                 </button>
