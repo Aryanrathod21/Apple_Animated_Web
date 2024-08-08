@@ -37,3 +37,28 @@ Apple Animated Web is a clone of the Apple iPhone 15 Pro website. This project s
 5. **Open the app in your browser:**
    ```bash
    http://localhost:3000
+
+## Usage
+
+After following the installation steps, you can start the development server and explore the website. The animations and 3D models are designed to work seamlessly across different devices.
+
+## Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add some feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Create a new Pull Request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- Thanks to the creators of React, Vite, Three.js, and GSAP for their amazing tools and libraries.
+- Inspired by the official [Apple iPhone 15 Pro website](https://www.apple.com/iphone-15-pro/).
+   
