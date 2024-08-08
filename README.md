@@ -20,6 +20,8 @@ Apple Animated Web is a clone of the Apple iPhone 15 Pro website. This project s
 - **Responsive Design**: Fully responsive and compatible with various screen sizes.
 - **Modern UI/UX**: A clean, modern user interface that closely resembles the Apple iPhone 15 Pro website.
 
+![Screenshot 2024-08-08 150223](https://github.com/user-attachments/assets/bda1d599-5a1e-4ae5-8900-288712e82fef)
+
 ## Installation
 
 1. **Clone the repository:**
