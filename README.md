@@ -18,7 +18,22 @@ Apple Animated Web is a clone of the Apple iPhone 15 Pro website. This project s
 
 ## Installation
 
-1. **Clone the repository**:
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/Aryanrathod21/Apple_Animated_Web.git
 
+2. **Navigate to the project directory:**
+   ```bash
+   cd Apple_Animated_Web
+
+3. **Install dependencies:**
+   ```bash
+   npm install
+
+4. **Run the development server::**
+   ```bash
+   npm run dev
+
+5. **Open the app in your browser:**
+   ```bash
+   http://localhost:3000
