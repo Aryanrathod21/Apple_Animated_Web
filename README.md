@@ -2,6 +2,8 @@
 
 Apple Animated Web is a clone of the Apple iPhone 15 Pro website. This project showcases advanced animations and interactions using modern web technologies. 
 
+![Screenshot 2024-08-08 145917](https://github.com/user-attachments/assets/5344363a-f336-48eb-90a4-3b5e4b32ac8b)
+
 ## Technologies Used
 
 - **React**: A JavaScript library for building user interfaces.
