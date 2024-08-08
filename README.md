@@ -1,8 +1,24 @@
-# React + Vite
+# Apple Animated Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Apple Animated Web is a clone of the Apple iPhone 15 Pro website. This project showcases advanced animations and interactions using modern web technologies. 
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A build tool that significantly improves the front-end development experience.
+- **Three.js**: A JavaScript library for creating 3D graphics in the browser.
+- **GSAP**: A robust JavaScript library for creating high-performance animations.
+
+## Features
+
+- **Realistic Animations**: Smooth and realistic animations using GSAP.
+- **3D Models**: High-quality 3D models and animations with Three.js.
+- **Responsive Design**: Fully responsive and compatible with various screen sizes.
+- **Modern UI/UX**: A clean, modern user interface that closely resembles the Apple iPhone 15 Pro website.
+
+## Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Aryanrathod21/Apple_Animated_Web.git
+
