@@ -11,6 +11,8 @@ Apple Animated Web is a clone of the Apple iPhone 15 Pro website. This project s
 - **Three.js**: A JavaScript library for creating 3D graphics in the browser.
 - **GSAP**: A robust JavaScript library for creating high-performance animations.
 
+![Screenshot 2024-08-08 150152](https://github.com/user-attachments/assets/0c03dc70-e156-4932-a6ac-5588da74797e)
+
 ## Features
 
 - **Realistic Animations**: Smooth and realistic animations using GSAP.
